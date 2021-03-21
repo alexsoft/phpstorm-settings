@@ -6,6 +6,7 @@
       <mapping pattern="default" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping pattern="*.xml.dist" type="XML" />
     </extensionMap>
   </component>
 </application>
