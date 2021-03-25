@@ -9,7 +9,7 @@
     <interpreters>
       <interpreter id="caa5a4f6-f9d6-4670-b028-71169d7e8824" name="PHP 7.2" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="8f34182f-2e3c-4f4b-a426-61c22ddd0a39" name="Remote PHP 7.2" home="vagrant://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" VAGRANT_FOLDER="$USER_HOME$/code/Homestead" />
+        <remote_data INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" VAGRANT_FOLDER="$USER_HOME$/Homestead" />
       </interpreter>
     </interpreters>
   </component>
