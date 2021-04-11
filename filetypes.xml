@@ -1,12 +1,16 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="*.neon.dist" type="Neon" />
+      <mapping ext="csv" type="CSV" />
+      <removed_mapping ext="tsv" type="CSV/TSV" />
+      <removed_mapping ext="csv" type="CSV/TSV" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="default" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="tsv" type="TSV" />
       <mapping pattern="*.xml.dist" type="XML" />
+      <mapping pattern="*.neon.dist" type="Neon" />
     </extensionMap>
   </component>
 </application>
