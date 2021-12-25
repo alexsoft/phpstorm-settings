@@ -7,7 +7,7 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="caa5a4f6-f9d6-4670-b028-71169d7e8824" name="PHP 7.2" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="caa5a4f6-f9d6-4670-b028-71169d7e8824" name="Local PHP" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="8f34182f-2e3c-4f4b-a426-61c22ddd0a39" name="Remote PHP 7.2" home="vagrant://DATA" debugger_id="php.debugger.XDebug">
         <remote_data INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" VAGRANT_FOLDER="$USER_HOME$/Homestead" />
       </interpreter>
@@ -134,12 +134,12 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
-      <interpreter name="PHP 7.2">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/8.0.3/bin/php-cgi" php_cli="/usr/local/Cellar/php/8.0.3/bin/php" path_separator=":" version="8.0.3">
-          <additional_php_ini>/usr/local/etc/php/8.0/conf.d/ext-opcache.ini</additional_php_ini>
-          <configuration_file>/usr/local/etc/php/8.0/php.ini</configuration_file>
+      <interpreter name="Local PHP">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/8.1.1.reinstall/bin/php-cgi" php_cli="/usr/local/Cellar/php/8.1.1.reinstall/bin/php" path_separator=":" version="8.1.1">
+          <additional_php_ini>/usr/local/etc/php/8.1/conf.d/ext-opcache.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/8.1/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/8.0.3/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/8.1.1/share/php/pear" />
           </configuration_options>
           <debuggers />
           <loaded_extensions>
@@ -185,7 +185,6 @@
             <extension name="pdo_pgsql" />
             <extension name="pdo_sqlite" />
             <extension name="pgsql" />
-            <extension name="phpdbg_webhelper" />
             <extension name="posix" />
             <extension name="pspell" />
             <extension name="readline" />
