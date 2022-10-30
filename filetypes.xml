@@ -3,11 +3,11 @@
     <extensionMap>
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
       <mapping pattern="*.neon.dist" type="Neon" />
+      <mapping pattern="*.php.dist" type="PHP" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="default" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="meta" type="PLAIN_TEXT" />
-      <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping pattern="*.xml.dist" type="XML" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
