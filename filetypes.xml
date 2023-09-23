@@ -9,6 +9,7 @@
       <mapping ext="meta" type="PLAIN_TEXT" />
       <mapping pattern="*.xml.dist" type="XML" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping pattern=".env.local" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".gitattributes" approved="true" type="PLAIN_TEXT" />
